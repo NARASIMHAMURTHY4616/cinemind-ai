@@ -6,7 +6,8 @@ from datetime import datetime
 app = Flask(__name__)
 
 # ---------------- Gemini ----------------
-genai.configure(api_key="AIzaSyABX0KYwyzO0-enqgHlKAEbgcSvrzrsRJM")
+api_key=" " // add your api key
+genai.configure(api_key)
 
 model = genai.GenerativeModel("gemini-2.5-flash", system_instruction="Only answer questions related to movies, actors, films, cinema.")
 
