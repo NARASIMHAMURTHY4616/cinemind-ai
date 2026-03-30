@@ -1,0 +1,121 @@
+body{
+display:flex;
+margin:0;
+font-family:Arial;
+height:100vh;
+background-image:url("images (1).jpeg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+backgroud-positionL:center;
+background-size: cover;
+
+font-size:1.2em;
+}
+
+#sidebar{
+width:250px;
+color:#FFF80A;
+padding:10px;
+background:transparent;
+overflow:auto;
+border:1px groove blue;
+}
+#nc{
+padding:8px;
+color:white;
+background:#F77E21;
+border:2px solid red;
+border-radius:2px;
+}
+.chat-item{
+color:red;
+padding:8px;
+cursor:pointer;
+border-bottom:1px solid #333;
+}
+
+.chat-item:hover{
+background:#FFC300;
+padding:10px;
+scale:1.1;
+color:blue;
+border:2px groove red;
+border-radius:3px;
+}
+
+#chat-area{
+flex:1;
+
+display:flex;
+flex-direction:column;
+}
+
+#chat-box{
+flex:1;
+background-attachment:fixed;
+
+background-color:transparent;
+backgroud-positionL:center;
+background-size: cover;
+height: 100vh;
+padding:20px;
+overflow:auto;
+color:white;
+}
+
+.user{
+text-align:right;
+margin:10px;
+background:linear-gradient(45deg,yellow,transparent);
+border:1 px groove goldenrod;
+border-radius:5px;
+}
+
+.bot{
+font:times;
+color:#1A05A2;
+text-align:left;
+margin:10px;
+background:linear-gradient(45deg,transparent,red);
+border:1 px groove purple;
+border-radius:5px;
+
+}
+
+.bot h1, .bot h2, .bot h3{
+margin:10px 0;
+}
+
+.bot ul{
+margin-left:20px;
+}
+
+.bot p{
+margin:5px 0;
+}
+
+#input-area{
+display:flex;
+padding:10px;
+background:#40414f;
+border-radius:2px;
+}
+
+#user-input{
+flex:1;
+padding:10px;
+border:2px solid white;
+
+outline:none;
+}
+#tt{
+background:black;
+color:white;
+padding:15px;
+font-size:22px;
+font-weight:bold;
+text-align:center;
+border:3px groove gray;
+border-bottom:1px solid #444;
+
+}
