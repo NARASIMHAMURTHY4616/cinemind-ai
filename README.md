@@ -72,7 +72,7 @@ movie_chatbot/
 
 ```
 git clone https://github.com/narasimhamurthy4616/cinemind-ai.git
-cd moviegpt
+cd cinemind-ai
 ```
 
 ### 2️⃣ Install Dependencies
@@ -85,6 +85,13 @@ pip install flask pymongo google-generativeai
 
 ```
 mongod
+```
+
+or
+ for terminal access
+```
+mongosh
+
 ```
 
 ### 4️⃣ Add Gemini API Key
