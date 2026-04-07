@@ -1,6 +1,6 @@
-# 🎬 MovieGPT
+# 🎬 cinemind
 
-**MovieGPT** is an AI-powered movie chatbot that answers questions about movies, actors, directors, and cinema.
+**CineMind** is an AI-powered movie chatbot that answers questions about movies, actors, directors, and cinema.
 
 It uses **Google Gemini AI** to generate intelligent responses and **MongoDB** to store chat history.  
 The interface is inspired by modern AI chat applications.
@@ -71,7 +71,7 @@ movie_chatbot/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/yourusername/moviegpt.git
+git clone https://github.com/narasimhamurthy4616/cinemind-ai.git
 cd moviegpt
 ```
 
@@ -168,7 +168,7 @@ Example MongoDB document:
 ## 👨‍💻 Author
 
 **Nagu**  
-Cyber Security Engineering Student
+Cyber Security Engineering Student]
 
 ---
 
