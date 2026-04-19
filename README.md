@@ -172,6 +172,10 @@ Example MongoDB document:
 
 ---
 
+for more info :
+  my blog about cinemind-ai in [[dev.to](https://dev.to/narasimhamurthy4616/building-cinemind-ai-my-first-ai-movie-chatbot-with-flask-gemini-mongodb-12ik)] 
+
+
 ## 👨‍💻 Author
 
 **Nagu**  
