@@ -101,7 +101,10 @@ Inside `app.py` add your API key:
 ```
 genai.configure(api_key="YOUR_API_KEY")
 ```
-* note : " keep your api keys as secure and private as possible"
+
+⚠️ **Security Note**
+> Keep your API keys secure and never expose them in public repositories. Use environment variables or configuration files.
+
 ### 5️⃣ Run the Application
 
 ```
