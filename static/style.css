@@ -23,7 +23,7 @@ border:1px groove blue;
 #nc{
 padding:8px;
 color:white;
-background:#F77E21;
+background:#00c28e;
 border:2px solid red;
 border-radius:2px;
 }
@@ -73,7 +73,7 @@ border-radius:5px;
 
 .bot{
 font:times;
-color:#1A05A2;
+color:#123456;
 text-align:left;
 margin:10px;
 background:linear-gradient(45deg,transparent,red);
