@@ -78,8 +78,11 @@ cd cinemind-ai
 ### 2️⃣ Install Dependencies
 
 ```
-pip install flask pymongo google-generativeai
+
+pip install -r requirements.txt
+
 ```
+
 
 ### 3️⃣ Start MongoDB
 
