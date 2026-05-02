@@ -87,9 +87,9 @@ pip install -r requirements.txt
 ### 3️⃣ Start MongoDB
 
 ```
-mongod
+mongodb
 ```
-
+*mongod
 or
  for terminal access
 ```
@@ -117,7 +117,7 @@ python app.py
 Then open in your browser:
 
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5000  //localhosting
 ```
 
 ---
