@@ -13,7 +13,7 @@ model = genai.GenerativeModel("gemini-2.5-flash", system_instruction="Only answe
 
 
 # ---------------- MongoDB ----------------
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://localhost:27017/") // establishment of connection with local mongodb database 
 db = client["movie_chatbot"]
 collection = db["chats"]
 
