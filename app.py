@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # ---------------- Gemini ----------------
 api_key=" " // add your api key
-genai.configure(api_key)
+genai.configure(api_key) // configuration of api key 
 
 model = genai.GenerativeModel("gemini-2.5-flash", system_instruction="Only answer questions related to movies, actors, films, cinema.")
 
