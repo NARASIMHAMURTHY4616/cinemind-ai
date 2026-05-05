@@ -26,7 +26,7 @@ allowed_keywords = [
 # ---------------- Home ----------------
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html") // rendering html page
 
 # ---------------- Create Chat ----------------
 @app.route("/new_chat")
